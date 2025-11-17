@@ -26,6 +26,14 @@ The visualizations reveal significant findings critical for business strategy:
 
 ---
 
+### **🛠️ Data Methodology**
+
+This section outlines the steps taken to prepare and enhance the dataset before visualization:
+
+* **Data Sourcing & Cleaning:** Standard cleaning procedures were applied to ensure data quality and consistency.
+* **Data Enrichment (Feature Engineering):** The original data source **lacked a direct Cost Price column**. To calculate the crucial **Profit Margin** KPI, a **simulated/derived Cost Price column** was generated. 
+* **Data Binning:** Continuous variables, specifically **Customer Age** and **Session Duration Minutes**, were converted into discrete **bins** to facilitate clearer trend visualization and customer segmentation analysis.
+
 ### **  Technologies Used**
 
 This project showcases the analytical capabilities of a modern data visualization platform.
